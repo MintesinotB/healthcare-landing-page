@@ -1,0 +1,128 @@
+body{
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    background-color: #92b1bc;
+}
+.homepagecontent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background: fixed;
+    background-size: cover;
+    background-color: white;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.peoplecare{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: right;
+    color: blueviolet;
+}
+.links{
+    display: flex;
+    flex: 2;
+    justify-content: space-evenly;
+      
+}
+a{
+    text-decoration-line: none;
+}
+.bookanappointment{
+    flex: 1;
+}
+.boldportion{
+    font-size: 70px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.biblicalquote{
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+.quotenum{
+    text-align: right;
+    color: white;
+    padding-right: 240px;
+}
+.suggestion{
+    display: flex;
+    justify-content: center;
+}
+.options{
+    background-color: white;
+    width: 120px;
+    margin: 10px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 40px;
+    color: rgb(188, 10, 105);
+    font-size: 18fpx;
+}
+.container{
+    background-color: #f8f4fcea;
+    color: rgb(34,113,115);
+}
+.latestblog{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 17px;  
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+}
+.blog1{
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.blog2{
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.blogs img{
+    width: 220px;
+    height: 200px;
+}
+footer{
+    display: flex;
+    background-color: #444444;
+    font-size: 17px;
+    line-height: 25px;
+    color: white;
+}
+.aboutus{
+    flex: 1;
+    margin: 30px;
+}
+.contactinfo{
+    flex: 1;
+    margin: 30px;
+}
+.space{
+    flex: 1;
+}
+hr{
+    border: 0.5px solid #9e9f9f;
+}
+.copyright{
+    background-color: #302c2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
