@@ -74,6 +74,38 @@ a{
     background-color: #f8f4fcea;
     color: rgb(34,113,115);
 }
+.itemslist{
+    display: flex;
+    justify-content: center;
+}
+
+.itemlistcontainer{
+    margin: 15px;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+}
+
+.iconsformat{
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(47, 161, 162);
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    font-size: 50px;
+}
+
+.containerofmedicalhospital{
+    background-color: white;
+    padding: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.medicalhospital{
+    display: flex;
+}
+
 .latestblog{
     padding-top: 80px;
     text-align: center;
