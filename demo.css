@@ -22,13 +22,13 @@ body{
     flex: 1;
     align-items: center;
     justify-content: right;
-    color: blueviolet;
+    color: rgb(34,113,115);
 }
 .links{
     display: flex;
     flex: 2;
     justify-content: space-evenly;
-      
+    color: black;
 }
 a{
     text-decoration-line: none;
